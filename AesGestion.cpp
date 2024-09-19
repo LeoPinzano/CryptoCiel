@@ -23,7 +23,7 @@ AesGestion::~AesGestion()
 
 /**
  * \brief generation d'une clef AES 
- * Le resultat est mid dans un tbl octet privee
+ * Le resultat est mis dans un tbl octet privee
  * 
  */
 void AesGestion::GenerateAESKey()
@@ -180,7 +180,7 @@ void AesGestion::DecryptFileAES256(const std::string& inputFile, const std::stri
 
 
 /**
- * Chiffre une string en AES256 PLace l'IV en preambulet et converti le tout en base64.
+ * Chiffre une string en AES256 PLace l'IV en preambule et converti le tout en base64.
  * 
  * \param plaintext : message a chiffre
  * \return : message chiffre (syring) en base64
